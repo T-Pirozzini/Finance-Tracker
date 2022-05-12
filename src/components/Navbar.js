@@ -20,7 +20,7 @@ export default function Navbar() {
             <li><Link to="/signup">Signup</Link></li>
           </>
         )}
-
+  
         {user && (
           <>
             <li>hello, {user.displayName}</li>
