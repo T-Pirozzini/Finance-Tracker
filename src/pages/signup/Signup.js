@@ -27,7 +27,7 @@ export default function Signup() {
         />        
       </label>
       <label>
-        <span>password:</span>
+        <span>Password:</span>
         <input 
           type="password" 
           onChange = {(e) => setPassword(e.target.value)}
@@ -35,7 +35,7 @@ export default function Signup() {
         />
       </label>
       <label>
-        <span>display name:</span>
+        <span>Display Name:</span>
         <input 
           type="text" 
           onChange = {(e) => setDisplayName(e.target.value)}
